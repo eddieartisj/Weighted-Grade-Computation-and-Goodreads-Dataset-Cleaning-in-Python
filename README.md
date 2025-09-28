@@ -1,21 +1,21 @@
 # Weighted-Grade-Computation-and-Goodreads-Dataset-Cleaning-in-Python
 Completed lab project demonstrating matrix operations with NumPy to calculate student grades and data cleaning with Pandas on a Goodreads dataset, highlighting understanding of machine learning concepts as well as core skills in linear algebra, data preparation, and exploratory analysis.
 
-Purpose
+**Purpose**
 
 This project was completed as part of my Machine Learning Foundations course in Purdue University’s Cybersecurity Workforce Certification Training program. It builds upon earlier work with matrix operations by applying them to compute student final grades, while also introducing real-world data cleaning using a Goodreads dataset.
 
 This project deepened my understanding of:
 
-Applying matrix multiplication to weighted grade calculations
+* Applying matrix multiplication to weighted grade calculations
 
-Normalizing datasets to a common scale
+* Normalizing datasets to a common scale
 
-Cleaning messy datasets (handling NaNs, invalid values, and type conversions)
+* Cleaning messy datasets (handling NaNs, invalid values, and type conversions)
 
-Using Pandas for aggregation and exploratory analysis
+* Using Pandas for aggregation and exploratory analysis
 
-Project Structure
+**Project Structure**
 
 Machine Learning Foundations - Lab 2 Final Code File.ipynb: Colab Notebook containing all code, explanations, and results
 
@@ -23,40 +23,50 @@ lab2-hw.txt, lab2-test.txt, lab2-quiz.txt, lab2-project.txt: Student grade text 
 
 lab2-T2-data.pkl: Goodreads dataset
 
-Tasks Completed
+**Tasks Completed**
 
-✅ Part One: Matrix Grade Computation
+✅ **Part One: Matrix Grade Computation**
 
-Load student grade data from text files
+Step 1: Load student grade data from text files
 
-Normalize scores to percentages
+Step 2: Convert Strings to Floats
 
-Build a grade matrix and apply a weight vector
+Step 3: Compute Averages for Each Category
 
-Compute final grades via matrix multiplication
+Step 4: Normalize Scores to a 100-Point Scale
 
-Present results in a Pandas DataFrame
+Step 5: Build the Grade Matrix
 
-✅ Part Two: Goodreads Data Cleaning and Analysis
+Step 6: Define the Weight Vector
 
-Explore dataset structure and missing values
+Step 7: Apply Matrix Multiplication
 
-Drop rows missing critical fields (ratings, year published)
+Bonus: Build a Final Grades Table
 
-Fill non-critical fields with blanks
+✅ **Part Two: Goodreads Data Cleaning and Analysis**
 
-Convert columns to correct types
+Step 1: Load the Dataset
 
-Remove invalid entries (negative years, ratings outside 0–5)
+Step 2: Explore the Data
 
-Group by author and identify the most prolific writer
+Step 3: Check for Missing Values
 
-Technologies Used
+Step 4: Drop Rows Missing Critical Fields
 
-Python
+Step 5: Missing Non-Critical Fields (Replace NaNs with blank strings)
 
-NumPy
+Step 6: Remove Invalid Records
 
-Pandas
+Step 7: Group Data by Author
 
-Jupyter Notebook / Google Colab
+Step 8: Display Books by Most Prolific Author
+
+**Technologies Used**
+
+* Python
+
+* NumPy
+
+* Pandas
+
+* Jupyter Notebook / Google Colab
