@@ -17,11 +17,11 @@ This project deepened my understanding of:
 
 **Project Structure**
 
-Machine Learning Foundations - Lab 2 Final Code File.ipynb: Colab Notebook containing all code, explanations, and results
+<ins>Machine Learning Foundations - Lab 2 Final Code File.ipynb</ins>: Colab Notebook containing all code, explanations, and results
 
-lab2-hw.txt, lab2-test.txt, lab2-quiz.txt, lab2-project.txt: Student grade text files
+<ins>lab2-hw.txt, lab2-test.txt, lab2-quiz.txt, lab2-project.txt</ins>: Student grade text files
 
-lab2-T2-data.pkl: Goodreads dataset
+<ins>lab2-T2-data.pkl</ins>: Goodreads dataset
 
 **Tasks Completed**
 
@@ -71,6 +71,6 @@ Step 8: Display Books by Most Prolific Author
 
 * Jupyter Notebook / Google Colab
 
-**Screenshots**
+**Preview**
 
-
+<img width="1481" height="749" alt="Image" src="https://github.com/user-attachments/assets/f9aebf0d-5493-4ecb-b995-ea151eeab5ed" />
